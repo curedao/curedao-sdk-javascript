@@ -1,0 +1,63 @@
+var expect = require('expect.js');
+var CureDAO = require('../../../src/index');
+var instance;
+beforeEach(function(){
+    instance = new CureDAO.GetCorrelationsResponse();
+});
+describe('GetCorrelationsResponse', function(){
+    it('should create an instance of GetCorrelationsResponse', function(){
+        // uncomment below and update the code to test GetCorrelationsResponse
+        //var instance = new CureDAO.GetCorrelationsResponse();
+        //expect(instance).to.be.a(CureDAO.GetCorrelationsResponse);
+    });
+    it('should have the property data (base name: "data")', function(){
+        // uncomment below and update the code to test the property data
+        //var instance = new CureDAO.GetCorrelationsResponse();
+        //expect(instance).to.be();
+    });
+    it('should have the property description (base name: "description")', function(){
+        // uncomment below and update the code to test the property description
+        //var instance = new CureDAO.GetCorrelationsResponse();
+        //expect(instance).to.be();
+    });
+    it('should have the property summary (base name: "summary")', function(){
+        // uncomment below and update the code to test the property summary
+        //var instance = new CureDAO.GetCorrelationsResponse();
+        //expect(instance).to.be();
+    });
+    it('should have the property avatar (base name: "avatar")', function(){
+        // uncomment below and update the code to test the property avatar
+        //var instance = new CureDAO.GetCorrelationsResponse();
+        //expect(instance).to.be();
+    });
+    it('should have the property errors (base name: "errors")', function(){
+        // uncomment below and update the code to test the property errors
+        //var instance = new CureDAO.GetCorrelationsResponse();
+        //expect(instance).to.be();
+    });
+    it('should have the property status (base name: "status")', function(){
+        // uncomment below and update the code to test the property status
+        //var instance = new CureDAO.GetCorrelationsResponse();
+        //expect(instance).to.be();
+    });
+    it('should have the property success (base name: "success")', function(){
+        // uncomment below and update the code to test the property success
+        //var instance = new CureDAO.GetCorrelationsResponse();
+        //expect(instance).to.be();
+    });
+    it('should have the property code (base name: "code")', function(){
+        // uncomment below and update the code to test the property code
+        //var instance = new CureDAO.GetCorrelationsResponse();
+        //expect(instance).to.be();
+    });
+    it('should have the property link (base name: "link")', function(){
+        // uncomment below and update the code to test the property link
+        //var instance = new CureDAO.GetCorrelationsResponse();
+        //expect(instance).to.be();
+    });
+    it('should have the property card (base name: "card")', function(){
+        // uncomment below and update the code to test the property card
+        //var instance = new CureDAO.GetCorrelationsResponse();
+        //expect(instance).to.be();
+    });
+});
